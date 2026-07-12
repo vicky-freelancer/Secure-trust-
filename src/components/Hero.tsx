@@ -16,8 +16,8 @@ export default function Hero({ config }: HeroProps) {
   const callLink = `tel:${config.phoneNumber}`;
 
   // Find the generated image path dynamically or refer to the correct generated asset.
-  // The generated file is `/src/assets/images/insurance_advisor_1783836975121.jpg`
-  const advisorImage = "src/assets/images/healthInsurance.webp";
+  // The generated file is in public folder `/assets/images/insurance_advisor_1783836975121.jpg`
+  const advisorImage = "/assets/images/insurance_advisor_1783836975121.jpg";
 
   return (
     <section id="hero" className="relative overflow-hidden pt-6 pb-16 md:py-24 bg-gradient-to-b from-blue-50/50 via-white to-[#F8FAFC]">
