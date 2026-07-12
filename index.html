@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return originalFetch;
+            },
+            set: function(val) {
+              originalFetch = val;
+            }
+          });
+        } catch (e) {
+          console.warn('Unable to patch window.fetch getter/setter:', e);
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>SecureTrust Insurance | Protect What Matters Most with Instant Support</title>
+    <meta name="description" content="Get instant, affordable insurance plans for Life, Health, Motor, Travel, and Business. Enjoy 24/7 claim assistance, certified advisory, and 100% transparent quotes. Chat with us on WhatsApp or book a free call today!" />
+    <meta name="keywords" content="life insurance, health insurance, car insurance, bike insurance, travel insurance, business insurance, instant insurance quote, claim assistance, affordable premiums" />
+    <meta name="author" content="SecureTrust Insurance Agency" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://securetrust-insurance.com" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://securetrust-insurance.com" />
+    <meta property="og:title" content="SecureTrust Insurance | Protect What Matters Most" />
+    <meta property="og:description" content="Affordable insurance plans with 24/7 claim support. Chat on WhatsApp or speak to an expert for instant guidance." />
+    <meta property="og:image" content="https://picsum.photos/seed/securetrust-og/1200/630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://securetrust-insurance.com" />
+    <meta property="twitter:title" content="SecureTrust Insurance | Protect What Matters Most" />
+    <meta property="twitter:description" content="Get custom-tailored Life, Health, and Motor insurance quotes in minutes on WhatsApp. Certified advice, fast approval." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/securetrust-og/1200/630" />
+
+    <!-- Favicon & Touch Icon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230F4C81'%3E%3Cpath d='M12 2L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-3zm0 18c-3.75-1-6.5-4.88-6.5-9V6.3l6.5-2.17 6.5 2.17V11c0 4.12-2.75 8-6.5 9z'/%3E%3C/svg%3E" />
+
+    <!-- JSON-LD Structured Data for Insurance Agency -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "InsuranceAgency",
+        "name": "SecureTrust Insurance Services",
+        "alternateName": "SecureTrust Insurance",
+        "description": "SecureTrust Insurance offers comprehensive, affordable Life, Health, Motor, Travel, and Business insurance with instant quotes on WhatsApp and expert claim assistance.",
+        "url": "https://securetrust-insurance.com",
+        "logo": "https://picsum.photos/seed/securetrust-logo/200/200",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+919876543210",
+            "contactType": "customer service",
+            "areaServed": "IN",
+            "availableLanguage": ["en", "hi"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+919876543210",
+            "contactType": "sales",
+            "areaServed": "IN",
+            "availableLanguage": ["en", "hi"]
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 402, Financial District, Gachibowli",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "postalCode": "500032",
+          "addressCountry": "IN"
+        },
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://facebook.com/securetrustinsurance",
+          "https://twitter.com/securetrustins",
+          "https://instagram.com/securetrustinsurance"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] text-[#1E293B] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

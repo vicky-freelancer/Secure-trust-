@@ -1,0 +1,6 @@
+{
+  "name": "SecureTrust Insurance",
+  "description": "A premium, modern, and high-converting landing page for SecureTrust Insurance with instant WhatsApp support and expert call booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
